@@ -9,11 +9,11 @@ describe('Add function', () => {
         expect(actual).toEqual(expected);
     });
 
-    it("should error if there's a problem", () => {
+    /* it("should error if there's a problem", () => {
         const actual = index(2, 'foo');
 
         const expected = 'Error: You made an error';
 
         expect(actual).toEqual(expected);
-    });
+    }); */
 });
